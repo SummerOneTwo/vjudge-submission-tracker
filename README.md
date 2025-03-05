@@ -24,7 +24,7 @@ cd vjudge-submission-tracker
 建议使用 Python 内置的 `venv` 模块创建虚拟环境：
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 ### 3. 激活虚拟环境
@@ -32,13 +32,13 @@ python3 -m venv venv
 - **Windows：**
 
   ```bash
-  venv\Scripts\activate
+  .venv\Scripts\activate
   ```
 
 - **macOS/Linux：**
 
   ```bash
-  source venv/bin/activate
+  source .venv/bin/activate
   ```
 
 ### 4. 安装依赖
@@ -53,13 +53,13 @@ pip install -r requirements.txt
 
 项目使用 `.env` 文件存储环境变量信息。请按照以下步骤进行配置：
 
-1. 在项目根目录下创建 `.env` 文件（可以复制 `.env.example` 文件，如果仓库中提供了该示例）。
+1. 在项目根目录下创建 `.env` 文件（可以复制 `.env.example` 文件）。
 2. 根据需要在 `.env` 文件中设置以下变量（示例配置）：
 
    ```ini
    # .env 示例
    VJUDGE_COOKIE=your_vjudge_cookie_here
-   
+
    CF_USER=your_CodeForces_username_here
    ATC_USER=your_AtCoder_username_here
    ```
