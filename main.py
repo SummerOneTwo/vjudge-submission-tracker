@@ -44,6 +44,10 @@ class Vjudge:
     SUBMIT_URL = "https://vjudge.net/problem/submit"
 
     def __init__(self):
+        if not dotenv.find_dotenv():
+            logging.error("❗ 未找到 .env 文件")
+            return
+
         dotenv.load_dotenv()
         self.cookies = dict(item.split("=", 1) for item in os.getenv("VJUDGE_COOKIE").split("; "))
         self.oj_config = {
@@ -51,6 +55,8 @@ class Vjudge:
             "codeforces": {"language": "91", "oj": "CodeForces"},
             "luogu": {"language": "27", "oj": "洛谷"},
         }
+
+        self.update_problems()
 
     def update_problems(self):
         logging.info("开始更新做题信息")
@@ -187,4 +193,3 @@ class Vjudge:
 
 if __name__ == "__main__":
     vju = Vjudge()
-    vju.update_problems()
