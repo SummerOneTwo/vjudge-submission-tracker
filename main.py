@@ -97,21 +97,21 @@ class Vjudge:
             response = requests.post(self.SUBMIT_URL, data=data, cookies=self.cookies)
 
             if response.status_code != 200:
-                logging.error(f"发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
+                logging.error(f"❗ 发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
                 continue
 
             succ[problem] = json.loads(response.text)
             write_json("success_problems.json", succ)
 
             if succ[problem].get("success") or succ[problem].get("error") == "No recent submissions found":
-                logging.info(f"更新 {data['oj']}-{data['probNum']} 成功")
+                logging.info(f"✅ 更新 {data['oj']}-{data['probNum']} 成功")
             else:
-                logging.warning(f"更新 {data['oj']}-{data['probNum']} 失败，错误信息：{succ[problem]['error']}")
+                logging.warning(f"❌ 更新 {data['oj']}-{data['probNum']} 失败，错误信息：{succ[problem]['error']}")
 
         os.chdir("..")
 
     def get_ATC_problem(self):
-        logging.info("获取 AtCoder 题目信息")
+        logging.info(f"获取 {'AtCoder':^10} 题目信息")
         url = "https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions"
 
         try:
@@ -145,9 +145,10 @@ class Vjudge:
             problems.add(item["problem_id"])
 
         write_lines("problems.txt", list(problems))
+        logging.info(f"获取 {'AtCoder':^10} 题目信息成功, 共 {len(problems)} 道题目")
 
     def get_CF_problem(self):
-        logging.info("获取 Codeforces 题目信息")
+        logging.info(f"获取 {'Codeforces':^10} 题目信息")
         url = "https://codeforces.com/api/user.status"
         params = {"handle": os.getenv("CF_USER")}
 
@@ -166,9 +167,10 @@ class Vjudge:
             problems.add(str(item["problem"]["contestId"]) + item["problem"]["index"])
 
         write_lines("problems.txt", list(problems))
+        logging.info(f"获取 {'Codeforces':^10} 题目信息成功, 共 {len(problems)} 道题目")
 
     def get_LG_problem(self):
-        logging.info("获取 Luogu 题目信息")
+        logging.info(f"获取 {'Luogu':^10} 题目信息")
 
         try:
             problems = read_lines("problems.txt")
@@ -180,6 +182,7 @@ class Vjudge:
                 problems.remove(item)  # 删除无效信息
 
         write_lines("problems.txt", problems)
+        logging.info(f"获取 {'Luogu':^10} 题目信息成功, 共 {len(problems)} 道题目")
 
 
 if __name__ == "__main__":
