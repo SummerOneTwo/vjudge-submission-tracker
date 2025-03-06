@@ -96,13 +96,18 @@ class Vjudge:
 
             response = requests.post(self.SUBMIT_URL, data=data, cookies=self.cookies)
 
-            if response.status_code == 200:
-                succ[problem] = json.loads(response.text)
-                logging.info(f"提交 {data['oj']}-{data['probNum']} 成功 {response.text}")
+            if response.status_code != 200:
+                logging.error(f"发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
+                continue
 
-                write_json("success_problems.json", succ)
+            succ[problem] = json.loads(response.text)
+            write_json("success_problems.json", succ)
+
+            if succ[problem].get("success") or succ[problem].get("error") == "No recent submissions found":
+                logging.info(f"更新 {data['oj']}-{data['probNum']} 成功")
             else:
-                logging.error(f"提交 {data['oj']}-{data['probNum']} 失败, {response.status_code}")
+                logging.warning(f"更新 {data['oj']}-{data['probNum']} 失败，错误信息：{succ[problem]['error']}")
+
         os.chdir("..")
 
     def get_ATC_problem(self):
