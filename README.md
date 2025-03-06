@@ -64,7 +64,10 @@ pip install -r requirements.txt
    ATC_USER=your_AtCoder_username_here
    ```
 
-> 在 [VJudge.net](https://vjudge.net/problem) 中按 F12 打开开发者工具（DevTools），在控制台（Console）输入 `document.cookie` 即可获取所需的 cookie
+> 在 [VJudge.net](https://vjudge.net/problem) 中按 F12 打开开发者工具（DevTools），在控制台（Console）中输入下面的代码即可获取所需的 cookie
+> ```js
+> prompt("复制以下 Cookie:", document.cookie);
+> ```
 
 ### 6. 配置
 
