@@ -104,6 +104,8 @@ class Vjudge:
 
             if response.status_code != 200:
                 logging.error(f"❗ 发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
+                if response.status_code == 401:
+                    logging.error("❗ 请检查 VJUDGE_COOKIE 是否已过期或从网络请求中获取完整的 Cookie（参考 README.md）")
                 continue
 
             succ[problem] = json.loads(response.text)

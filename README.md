@@ -59,7 +59,7 @@ pip install -r requirements.txt
    ```ini
    # .env 示例
    VJUDGE_COOKIE=your_vjudge_cookie_here
-
+   
    CF_USER=your_CodeForces_username_here
    ATC_USER=your_AtCoder_username_here
    ```
@@ -95,6 +95,20 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## 注意：解决状态码 401 错误的方法
+
+在使用过程中，如果遇到类似 `❗ 发送 xxx 的更新请求失败, 状态码：401` 的错误，请依照以下步骤逐步排查并解决问题：
+
+1. 获取最新 Cookie：
+   - 打开 [VJudge.net](https://vjudge.net) 并重新登录账号。
+   - 参照上面的配置环境变量步骤重新配置 VJUDGE_COOKIE
+
+2. 获取完整 Cookie：
+   - 如果更新后问题依旧，按 F12 打开开发者工具并切换到 **Network（网络）** 面板。
+   - 按 F5 刷新页面，点击任意一个网络请求（如 `.png` 的请求）
+   - 查看请求头中的 Cookie 信息，将其完整复制到 `.env` 文件更新对应的 `VJUDGE_COOKIE` 变量。
+
 
 ## 贡献
 
