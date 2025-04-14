@@ -100,7 +100,7 @@ class Vjudge:
             if oj_name == "codeforces" and len(problem) > 6:
                 data["oj"] = "Gym"
 
-            response = requests.post(self.SUBMIT_URL, data=data, cookies=self.cookies)
+            response = requests.post(f"{self.SUBMIT_URL}/{data['oj']}-{data['probNum']}", data=data, cookies=self.cookies)
 
             if response.status_code != 200:
                 logging.error(f"❗ 发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
