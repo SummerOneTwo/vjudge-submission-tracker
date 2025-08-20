@@ -12,22 +12,22 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 def read_lines(filename):
-    with open(filename, "r") as file:
+    with open(filename, "r", encoding="utf-8") as file:
         return file.read().splitlines()
 
 
 def write_lines(filename, lines):
-    with open(filename, "w") as file:
+    with open(filename, "w", encoding="utf-8") as file:
         file.write("\n".join(lines))
 
 
 def read_json(filename):
-    with open(filename, "r") as file:
+    with open(filename, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
 def write_json(filename, data):
-    with open(filename, "w") as file:
+    with open(filename, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
 
@@ -84,6 +84,22 @@ class Vjudge:
             succ = read_json("success_problems.json")
         except FileNotFoundError:
             succ = {}
+
+        # 对于洛谷，只处理新增的题目（避免重复提交已处理的题目）
+        if oj_name == "luogu":
+            # 获取已经处理过的题目（无论成功或失败）
+            processed_problems = set(succ.keys())
+            # 获取当前所有题目
+            current_problems = set(problems)
+            # 只处理新增的题目
+            new_problems = current_problems - processed_problems
+            problems = list(new_problems)
+            if new_problems:
+                logging.info(f"发现 {len(new_problems)} 道新增题目需要提交：{', '.join(sorted(new_problems))}")
+            else:
+                logging.info("没有发现新增题目，跳过提交")
+                os.chdir("..")
+                return
 
         for problem in problems:
             if problem in succ and "success" in succ[problem] and succ[problem]["success"]:
