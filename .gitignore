@@ -1,11 +1,2 @@
 .venv/
 .env
-
-atcoder/*
-!atcoder/
-codeforces/*
-!codeforces/
-
-luogu/*
-!luogu/
-!luogu/problems.example.txt
