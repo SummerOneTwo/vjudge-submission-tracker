@@ -55,6 +55,29 @@ class Vjudge:
             "codeforces": {"language": "91", "oj": "CodeForces"},
             "luogu": {"language": "27", "oj": "洛谷"},
         }
+        
+        # 添加请求头和会话配置
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
+        
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
+        
+        # 配置代理设置
+        if os.getenv("HTTP_PROXY") or os.getenv("HTTPS_PROXY"):
+            proxies = {}
+            if os.getenv("HTTP_PROXY"):
+                proxies['http'] = os.getenv("HTTP_PROXY")
+            if os.getenv("HTTPS_PROXY"):
+                proxies['https'] = os.getenv("HTTPS_PROXY")
+            self.session.proxies.update(proxies)
+            logging.info(f"已配置代理：{proxies}")
 
         self.update_problems()
 
@@ -85,21 +108,20 @@ class Vjudge:
         except FileNotFoundError:
             succ = {}
 
-        # 对于洛谷，只处理新增的题目（避免重复提交已处理的题目）
-        if oj_name == "luogu":
-            # 获取已经处理过的题目（无论成功或失败）
-            processed_problems = set(succ.keys())
-            # 获取当前所有题目
-            current_problems = set(problems)
-            # 只处理新增的题目
-            new_problems = current_problems - processed_problems
-            problems = list(new_problems)
-            if new_problems:
-                logging.info(f"发现 {len(new_problems)} 道新增题目需要提交：{', '.join(sorted(new_problems))}")
-            else:
-                logging.info("没有发现新增题目，跳过提交")
-                os.chdir("..")
-                return
+        # 对于所有 OJ，只处理新增的题目（避免重复提交已处理的题目）
+        # 获取已经处理过的题目（无论成功或失败）
+        processed_problems = set(succ.keys())
+        # 获取当前所有题目
+        current_problems = set(problems)
+        # 只处理新增的题目
+        new_problems = current_problems - processed_problems
+        problems = list(new_problems)
+        if new_problems:
+            logging.info(f"发现 {len(new_problems)} 道新增题目需要提交：{', '.join(sorted(new_problems))}")
+        else:
+            logging.info("没有发现新增题目，跳过提交")
+            os.chdir("..")
+            return
 
         for problem in problems:
             if problem in succ and "success" in succ[problem] and succ[problem]["success"]:
@@ -116,7 +138,12 @@ class Vjudge:
             if oj_name == "codeforces" and len(problem) > 6:
                 data["oj"] = "Gym"
 
-            response = requests.post(f"{self.SUBMIT_URL}/{data['oj']}-{data['probNum']}", data=data, cookies=self.cookies)
+            try:
+                response = self.session.post(f"{self.SUBMIT_URL}/{data['oj']}-{data['probNum']}", 
+                                           data=data, cookies=self.cookies, timeout=30)
+            except requests.exceptions.RequestException as e:
+                logging.error(f"❗ 请求 {data['oj']}-{data['probNum']} 时发生网络错误：{e}")
+                continue
 
             if response.status_code != 200:
                 logging.error(f"❗ 发送 {data['oj']}-{data['probNum']} 的更新请求失败, 状态码：{response.status_code}")
@@ -150,8 +177,14 @@ class Vjudge:
                 last_time = 0
             params = {"user": os.getenv("ATC_USER"), "from_second": last_time}
 
-            # 获取最新提交记录
-            response = requests.get(url, params=params).json()
+            try:
+                response = self.session.get(url, params=params, timeout=30).json()
+            except requests.exceptions.RequestException as e:
+                logging.error(f"❗ AtCoder API 请求失败：{e}")
+                break
+            except json.JSONDecodeError as e:
+                logging.error(f"❗ AtCoder API 响应解析失败：{e}")
+                break
             submissions.extend(response)
 
             if response == []:
@@ -176,7 +209,14 @@ class Vjudge:
         url = "https://codeforces.com/api/user.status"
         params = {"handle": os.getenv("CF_USER")}
 
-        response = requests.get(url, params=params).json()
+        try:
+            response = self.session.get(url, params=params, timeout=30).json()
+        except requests.exceptions.RequestException as e:
+            logging.error(f"❗ Codeforces API 请求失败：{e}")
+            return
+        except json.JSONDecodeError as e:
+            logging.error(f"❗ Codeforces API 响应解析失败：{e}")
+            return
 
         write_json("submissions.json", response)
 
