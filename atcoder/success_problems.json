@@ -39,18 +39,9 @@
         "success": false,
         "error": "No recent submissions found"
     },
-    "abc408_c": {
-        "error": "Please login to submit"
-    },
     "abc282_a": {
         "success": false,
         "error": "No recent submissions found"
-    },
-    "abc399_e": {
-        "error": "Please login to submit"
-    },
-    "abc389_a": {
-        "error": "Please login to submit"
     },
     "arc203_a": {
         "success": true,
@@ -67,12 +58,6 @@
     "abc404_e": {
         "success": false,
         "error": "No recent submissions found"
-    },
-    "abc255_a": {
-        "error": "Please login to submit"
-    },
-    "abc399_c": {
-        "error": "Please login to submit"
     },
     "abc410_f": {
         "success": false,
@@ -294,12 +279,6 @@
         "success": false,
         "error": "No recent submissions found"
     },
-    "abc397_c": {
-        "error": "Please login to submit"
-    },
-    "abc404_c": {
-        "error": "Please login to submit"
-    },
     "abc420_d": {
         "success": true,
         "runId": 63434597
@@ -344,48 +323,9 @@
         "success": false,
         "error": "No recent submissions found"
     },
-    "abc389_b": {
-        "error": "Please login to submit"
-    },
-    "abc407_b": {
-        "error": "Please login to submit"
-    },
-    "abc418_c": {
-        "error": "Please login to submit"
-    },
-    "abc398_c": {
-        "error": "Please login to submit"
-    },
     "abc420_g": {
         "success": true,
         "runId": 63434700
-    },
-    "abc417_c": {
-        "error": "Please login to submit"
-    },
-    "abc403_d": {
-        "error": "Please login to submit"
-    },
-    "abc410_e": {
-        "error": "Please login to submit"
-    },
-    "abc397_a": {
-        "error": "Please login to submit"
-    },
-    "abc417_f": {
-        "error": "Please login to submit"
-    },
-    "abc416_e": {
-        "error": "Please login to submit"
-    },
-    "abc334_a": {
-        "error": "Please login to submit"
-    },
-    "abc410_d": {
-        "error": "Please login to submit"
-    },
-    "abc363_a": {
-        "error": "Please login to submit"
     },
     "abc396_a": {
         "success": false,
@@ -470,5 +410,105 @@
     "abc423_e": {
         "success": true,
         "runId": 63673151
+    },
+    "abc422_b": {
+        "success": true,
+        "runId": 63809109
+    },
+    "abc424_c": {
+        "success": true,
+        "runId": 63809110
+    },
+    "abc422_c": {
+        "success": true,
+        "runId": 63809125
+    },
+    "abc424_b": {
+        "success": true,
+        "runId": 63809127
+    },
+    "abc424_a": {
+        "success": true,
+        "runId": 63809129
+    },
+    "abc389_a": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc417_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc399_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc404_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc363_a": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc403_d": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc255_a": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc334_a": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc410_d": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc410_e": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc408_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc397_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc418_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc417_f": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc389_b": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc416_e": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc399_e": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc407_b": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc398_c": {
+        "success": false,
+        "error": "No recent submissions found"
+    },
+    "abc397_a": {
+        "success": false,
+        "error": "No recent submissions found"
     }
 }

@@ -151,13 +151,33 @@ class Vjudge:
                     logging.error("❗ 请检查 VJUDGE_COOKIE 是否已过期或从网络请求中获取完整的 Cookie（参考 README.md）")
                 continue
 
-            succ[problem] = json.loads(response.text)
-            write_json("success_problems.json", succ)
+            # 解析本次请求结果
+            try:
+                result = json.loads(response.text)
+            except json.JSONDecodeError:
+                logging.error(f"❗ 解析 {data['oj']}-{data['probNum']} 响应失败，原始内容：{response.text[:200]}")
+                continue
 
-            if succ[problem].get("success") or succ[problem].get("error") == "No recent submissions found":
-                logging.info(f"✅ 更新 {data['oj']}-{data['probNum']} 成功")
+            # 仅在成功或允许的特定错误(无近期提交)时写入 success_problems.json
+            allow_store = False
+            if result.get("success") is True:
+                allow_store = True
+            elif result.get("error") == "No recent submissions found":
+                # 这表示题目已读取但无最近提交，也视为无需再次尝试
+                allow_store = True
+
+            if allow_store:
+                succ[problem] = result
+                write_json("success_problems.json", succ)
+                if result.get("success"):
+                    logging.info(f"✅ 更新 {data['oj']}-{data['probNum']} 成功")
+                else:
+                    logging.info(f"ℹ️ {data['oj']}-{data['probNum']} 无最近提交记录 (No recent submissions found)")
             else:
-                logging.warning(f"❌ 更新 {data['oj']}-{data['probNum']} 失败，错误信息：{succ[problem]['error']}")
+                # 不写入成功文件，提醒用户可稍后重试
+                logging.warning(
+                    f"❌ 更新 {data['oj']}-{data['probNum']} 失败（未写入成功列表），错误信息：{result.get('error', '未知错误')}"
+                )
 
         os.chdir("..")
 
