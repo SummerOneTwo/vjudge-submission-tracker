@@ -76,6 +76,7 @@ pip install -r requirements.txt
 - [AtCoder-abc123_a](https://vjudge.net/problem/AtCoder-abc123_a)
 - [CodeForces-1A](https://vjudge.net/problem/CodeForces-1A)
 - [洛谷-P1001](https://vjudge.net/problem/洛谷-P1001)
+- [Gym](https://vjudge.net/problem/Gym-105819D)
 
 > 依次点击 `Submit`、`Submit by: Archive`、`Update`，填入对应的值。
 > 参考 [Submit with your own account](https://vjudge.net/article/2790)。
