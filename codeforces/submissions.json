@@ -2,6 +2,402 @@
     "status": "OK",
     "result": [
         {
+            "id": 340663205,
+            "contestId": 105552,
+            "creationTimeSeconds": 1758912110,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105552,
+                "index": "D",
+                "name": "Fresh Avocado",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105552,
+                "participantId": 219948575,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1732147200
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 25,
+            "timeConsumedMillis": 124,
+            "memoryConsumedBytes": 102400
+        },
+        {
+            "id": 340661950,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758911259,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 153,
+            "timeConsumedMillis": 390,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340626270,
+            "contestId": 2014,
+            "creationTimeSeconds": 1758894922,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2014,
+                "index": "A",
+                "name": "Robin Helps",
+                "type": "PROGRAMMING",
+                "rating": 800,
+                "tags": [
+                    "greedy",
+                    "implementation"
+                ]
+            },
+            "author": {
+                "contestId": 2014,
+                "participantId": 219838274,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1726929900
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 7,
+            "timeConsumedMillis": 109,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340582767,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758874319,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 153,
+            "timeConsumedMillis": 437,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340581756,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758873774,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 19,
+            "timeConsumedMillis": 327,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340581453,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758873617,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 13,
+            "timeConsumedMillis": 93,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340581102,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758873439,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 13,
+            "timeConsumedMillis": 77,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340577137,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758871290,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 1046,
+            "memoryConsumedBytes": 265113600
+        },
+        {
+            "id": 340576246,
+            "contestId": 104790,
+            "creationTimeSeconds": 1758870898,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104790,
+                "index": "K",
+                "name": "King of the Hill",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104790,
+                "participantId": 219948682,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 31,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 340557263,
+            "contestId": 104777,
+            "creationTimeSeconds": 1758859480,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104777,
+                "index": "N",
+                "name": "XOR Construction",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104777,
+                "participantId": 219948681,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 69,
+            "timeConsumedMillis": 280,
+            "memoryConsumedBytes": 21606400
+        },
+        {
+            "id": 340554409,
+            "contestId": 105394,
+            "creationTimeSeconds": 1758857018,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105394,
+                "index": "D",
+                "name": "Dark Alley",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105394,
+                "participantId": 219839994,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 15,
+            "timeConsumedMillis": 140,
+            "memoryConsumedBytes": 2662400
+        },
+        {
+            "id": 340551832,
+            "contestId": 105387,
+            "creationTimeSeconds": 1758854832,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105387,
+                "index": "G",
+                "name": "Cubes",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105387,
+                "participantId": 219839990,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 99,
+            "timeConsumedMillis": 77,
+            "memoryConsumedBytes": 28057600
+        },
+        {
+            "id": 340551713,
+            "contestId": 105387,
+            "creationTimeSeconds": 1758854712,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105387,
+                "index": "G",
+                "name": "Cubes",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105387,
+                "participantId": 219839990,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 10,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 5427200
+        },
+        {
             "id": 340305199,
             "contestId": 2151,
             "creationTimeSeconds": 1758784069,
@@ -117,6 +513,7 @@
                 "type": "PROGRAMMING",
                 "points": 500.0,
                 "tags": [
+                    "math",
                     "strings"
                 ]
             },
@@ -1641,6 +2038,7 @@
                 "index": "D",
                 "name": "Price Tags",
                 "type": "PROGRAMMING",
+                "rating": 1800,
                 "tags": [
                     "brute force",
                     "dp",
@@ -1676,6 +2074,7 @@
                 "index": "D",
                 "name": "Price Tags",
                 "type": "PROGRAMMING",
+                "rating": 1800,
                 "tags": [
                     "brute force",
                     "dp",
@@ -1712,6 +2111,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1749,6 +2149,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1786,6 +2187,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1823,6 +2225,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1861,6 +2264,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1899,6 +2303,7 @@
                 "name": "Make Good",
                 "type": "PROGRAMMING",
                 "points": 2500.0,
+                "rating": 2400,
                 "tags": [
                     "constructive algorithms",
                     "greedy",
@@ -1937,6 +2342,7 @@
                 "name": "Max Tree",
                 "type": "PROGRAMMING",
                 "points": 1500.0,
+                "rating": 1300,
                 "tags": [
                     "constructive algorithms",
                     "dfs and similar",
@@ -1975,6 +2381,7 @@
                 "name": "Discounts",
                 "type": "PROGRAMMING",
                 "points": 1000.0,
+                "rating": 1000,
                 "tags": [
                     "greedy",
                     "sortings",
@@ -2012,6 +2419,7 @@
                 "name": "All Lengths Subtraction",
                 "type": "PROGRAMMING",
                 "points": 500.0,
+                "rating": 800,
                 "tags": [
                     "brute force",
                     "two pointers"
@@ -2048,6 +2456,7 @@
                 "name": "Inversion Graph Coloring (Easy Version)",
                 "type": "PROGRAMMING",
                 "points": 1750.0,
+                "rating": 1800,
                 "tags": [
                     "combinatorics",
                     "data structures",
@@ -2087,6 +2496,7 @@
                 "name": "Inversion Graph Coloring (Hard Version)",
                 "type": "PROGRAMMING",
                 "points": 1000.0,
+                "rating": 2200,
                 "tags": [
                     "binary search",
                     "combinatorics",
@@ -2971,6 +3381,7 @@
                 "index": "D",
                 "name": "Price Tags",
                 "type": "PROGRAMMING",
+                "rating": 1800,
                 "tags": [
                     "brute force",
                     "dp",
@@ -3006,6 +3417,7 @@
                 "index": "C",
                 "name": "Non-Descending Arrays",
                 "type": "PROGRAMMING",
+                "rating": 1300,
                 "tags": [
                     "combinatorics",
                     "dp",
@@ -3041,6 +3453,7 @@
                 "index": "C",
                 "name": "Non-Descending Arrays",
                 "type": "PROGRAMMING",
+                "rating": 1300,
                 "tags": [
                     "combinatorics",
                     "dp",
@@ -3076,6 +3489,7 @@
                 "index": "B",
                 "name": "Maximum Cost Permutation",
                 "type": "PROGRAMMING",
+                "rating": 1000,
                 "tags": [
                     "constructive algorithms",
                     "greedy"
@@ -3110,6 +3524,7 @@
                 "index": "A",
                 "name": "Cut the Array",
                 "type": "PROGRAMMING",
+                "rating": 800,
                 "tags": [
                     "brute force",
                     "constructive algorithms",
