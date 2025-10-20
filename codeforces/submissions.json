@@ -2,6 +2,1053 @@
     "status": "OK",
     "result": [
         {
+            "id": 344841513,
+            "contestId": 2154,
+            "creationTimeSeconds": 1760953917,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2154,
+                "index": "C1",
+                "name": "No Cost Too Great (Easy Version)",
+                "type": "PROGRAMMING",
+                "points": 1250.0,
+                "tags": [
+                    "greedy",
+                    "implementation",
+                    "math",
+                    "number theory"
+                ]
+            },
+            "author": {
+                "contestId": 2154,
+                "participantId": 222116636,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760884500
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 24,
+            "timeConsumedMillis": 468,
+            "memoryConsumedBytes": 1638400
+        },
+        {
+            "id": 344841416,
+            "contestId": 2154,
+            "creationTimeSeconds": 1760953878,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2154,
+                "index": "C2",
+                "name": "No Cost Too Great (Hard Version)",
+                "type": "PROGRAMMING",
+                "points": 1000.0,
+                "tags": [
+                    "greedy",
+                    "math",
+                    "number theory"
+                ]
+            },
+            "author": {
+                "contestId": 2154,
+                "participantId": 222116636,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760884500
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 29,
+            "timeConsumedMillis": 499,
+            "memoryConsumedBytes": 1638400
+        },
+        {
+            "id": 344834944,
+            "contestId": 2154,
+            "creationTimeSeconds": 1760951076,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2154,
+                "index": "C2",
+                "name": "No Cost Too Great (Hard Version)",
+                "type": "PROGRAMMING",
+                "points": 1000.0,
+                "tags": [
+                    "greedy",
+                    "math",
+                    "number theory"
+                ]
+            },
+            "author": {
+                "contestId": 2154,
+                "participantId": 222116636,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760884500
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 1,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344798750,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760930973,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "G",
+                "name": "Beautiful Tree",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "constructive algorithms",
+                    "math",
+                    "trees"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 9,
+            "timeConsumedMillis": 62,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344719181,
+            "contestId": 105129,
+            "creationTimeSeconds": 1760889448,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105129,
+                "index": "L",
+                "name": "15 Prime",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105129,
+                "participantId": 222079123,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1714205400
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 50,
+            "timeConsumedMillis": 124,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344714463,
+            "contestId": 105129,
+            "creationTimeSeconds": 1760889029,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105129,
+                "index": "L",
+                "name": "15 Prime",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105129,
+                "participantId": 222079123,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1714205400
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 1,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344707626,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760888439,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "F",
+                "name": "Beautiful Intervals",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "constructive algorithms",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 11,
+            "timeConsumedMillis": 61,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344705292,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760888236,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "F",
+                "name": "Beautiful Intervals",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "constructive algorithms",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 15,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344527417,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760802233,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "E",
+                "name": "Beautiful Palindromes",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "constructive algorithms",
+                    "greedy",
+                    "schedules"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 17,
+            "timeConsumedMillis": 234,
+            "memoryConsumedBytes": 7475200
+        },
+        {
+            "id": 344527214,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760802152,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "E",
+                "name": "Beautiful Palindromes",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "constructive algorithms",
+                    "greedy",
+                    "schedules"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 30,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344524449,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760801119,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "D",
+                "name": "Beautiful Permutation",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "binary search",
+                    "interactive"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 7,
+            "timeConsumedMillis": 249,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344493726,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760790532,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 2162,
+                "index": "D",
+                "name": "Beautiful Permutation",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "binary search",
+                    "interactive"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221988606,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344491871,
+            "contestId": 105408,
+            "creationTimeSeconds": 1760789850,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105408,
+                "index": "G",
+                "name": "GCDland Mystical Arrays",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105408,
+                "participantId": 221985844,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 51,
+            "timeConsumedMillis": 249,
+            "memoryConsumedBytes": 77209600
+        },
+        {
+            "id": 344491358,
+            "contestId": 105408,
+            "creationTimeSeconds": 1760789622,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105408,
+                "index": "G",
+                "name": "GCDland Mystical Arrays",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105408,
+                "participantId": 221985844,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344366276,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760719716,
+            "relativeTimeSeconds": 8016,
+            "problem": {
+                "contestId": 2162,
+                "index": "C",
+                "name": "Beautiful XOR",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "bitmasks",
+                    "constructive algorithms",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 6,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344365767,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760719689,
+            "relativeTimeSeconds": 7989,
+            "problem": {
+                "contestId": 2162,
+                "index": "C",
+                "name": "Beautiful XOR",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "bitmasks",
+                    "constructive algorithms",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 6,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344251815,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760713341,
+            "relativeTimeSeconds": 1641,
+            "problem": {
+                "contestId": 2162,
+                "index": "B",
+                "name": "Beautiful String",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "brute force",
+                    "constructive algorithms"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 34,
+            "timeConsumedMillis": 546,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344235108,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760712714,
+            "relativeTimeSeconds": 1014,
+            "problem": {
+                "contestId": 2162,
+                "index": "C",
+                "name": "Beautiful XOR",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "bitmasks",
+                    "constructive algorithms",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 6,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344215434,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760712081,
+            "relativeTimeSeconds": 381,
+            "problem": {
+                "contestId": 2162,
+                "index": "B",
+                "name": "Beautiful String",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "brute force",
+                    "constructive algorithms"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 0,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344204815,
+            "contestId": 2162,
+            "creationTimeSeconds": 1760711830,
+            "relativeTimeSeconds": 130,
+            "problem": {
+                "contestId": 2162,
+                "index": "A",
+                "name": "Beautiful Average",
+                "type": "PROGRAMMING",
+                "tags": [
+                    "brute force",
+                    "greedy"
+                ]
+            },
+            "author": {
+                "contestId": 2162,
+                "participantId": 221673037,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "OUT_OF_COMPETITION",
+                "ghost": false,
+                "startTimeSeconds": 1760711700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 3,
+            "timeConsumedMillis": 61,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 344099764,
+            "contestId": 104852,
+            "creationTimeSeconds": 1760651752,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104852,
+                "index": "4",
+                "name": "Fun Numbers",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104852,
+                "participantId": 221845455,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 22,
+            "timeConsumedMillis": 62,
+            "memoryConsumedBytes": 0,
+            "points": 100.0
+        },
+        {
+            "id": 344099686,
+            "contestId": 104852,
+            "creationTimeSeconds": 1760651635,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104852,
+                "index": "4",
+                "name": "Fun Numbers",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104852,
+                "participantId": 221845455,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "PARTIAL",
+            "testset": "TESTS",
+            "passedTestCount": 13,
+            "timeConsumedMillis": 62,
+            "memoryConsumedBytes": 0,
+            "points": 55.0
+        },
+        {
+            "id": 344092661,
+            "contestId": 103785,
+            "creationTimeSeconds": 1760646528,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 103785,
+                "index": "H",
+                "name": "Perfect Array",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 103785,
+                "participantId": 221569296,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1655033700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 20,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 343991203,
+            "contestId": 103785,
+            "creationTimeSeconds": 1760605601,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 103785,
+                "index": "H",
+                "name": "Perfect Array",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 103785,
+                "participantId": 221569296,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1655033700
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 2,
+            "timeConsumedMillis": 62,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 343985111,
+            "contestId": 104673,
+            "creationTimeSeconds": 1760602980,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 104673,
+                "index": "A",
+                "name": "Array",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 104673,
+                "participantId": 221763792,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1667638800
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 17,
+            "timeConsumedMillis": 124,
+            "memoryConsumedBytes": 2662400
+        },
+        {
+            "id": 343877106,
+            "contestId": 103855,
+            "creationTimeSeconds": 1760537326,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 103855,
+                "index": "E",
+                "name": "RPS Bubble Sort",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 103855,
+                "participantId": 221562288,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 22,
+            "timeConsumedMillis": 77,
+            "memoryConsumedBytes": 409600
+        },
+        {
+            "id": 343869651,
+            "contestId": 103855,
+            "creationTimeSeconds": 1760534612,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 103855,
+                "index": "D",
+                "name": "Triple Sword Strike",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 103855,
+                "participantId": 221562288,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 51,
+            "timeConsumedMillis": 609,
+            "memoryConsumedBytes": 24985600
+        },
+        {
+            "id": 343864604,
+            "contestId": 102419,
+            "creationTimeSeconds": 1760532781,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 102419,
+                "index": "D",
+                "name": "Xor the graph",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 102419,
+                "participantId": 221713425,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1573293600
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 64,
+            "timeConsumedMillis": 311,
+            "memoryConsumedBytes": 19046400
+        },
+        {
+            "id": 343729018,
+            "contestId": 102409,
+            "creationTimeSeconds": 1760456232,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 102409,
+                "index": "J",
+                "name": "Best division",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 102409,
+                "participantId": 221670664,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1572621300
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 55,
+            "timeConsumedMillis": 77,
+            "memoryConsumedBytes": 102400
+        },
+        {
+            "id": 343727845,
+            "contestId": 102409,
+            "creationTimeSeconds": 1760455857,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 102409,
+                "index": "J",
+                "name": "Best division",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 102409,
+                "participantId": 221670664,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false,
+                "startTimeSeconds": 1572621300
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "WRONG_ANSWER",
+            "testset": "TESTS",
+            "passedTestCount": 5,
+            "timeConsumedMillis": 46,
+            "memoryConsumedBytes": 0
+        },
+        {
+            "id": 343656016,
+            "contestId": 105487,
+            "creationTimeSeconds": 1760427077,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105487,
+                "index": "E",
+                "name": "Centroid Tree",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105487,
+                "participantId": 221637619,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 23,
+            "timeConsumedMillis": 218,
+            "memoryConsumedBytes": 6963200
+        },
+        {
+            "id": 343652842,
+            "contestId": 105487,
+            "creationTimeSeconds": 1760425438,
+            "relativeTimeSeconds": 2147483647,
+            "problem": {
+                "contestId": 105487,
+                "index": "L",
+                "name": "Puzzle",
+                "type": "PROGRAMMING",
+                "tags": []
+            },
+            "author": {
+                "contestId": 105487,
+                "participantId": 221637619,
+                "members": [
+                    {
+                        "handle": "shepherdtoherd"
+                    }
+                ],
+                "participantType": "PRACTICE",
+                "ghost": false
+            },
+            "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+            "verdict": "OK",
+            "testset": "TESTS",
+            "passedTestCount": 5,
+            "timeConsumedMillis": 62,
+            "memoryConsumedBytes": 0
+        },
+        {
             "id": 343502009,
             "contestId": 103855,
             "creationTimeSeconds": 1760348429,
@@ -476,7 +1523,8 @@
                 "type": "PROGRAMMING",
                 "points": 1750.0,
                 "tags": [
-                    "dp"
+                    "dp",
+                    "greedy"
                 ]
             },
             "author": {
@@ -510,7 +1558,8 @@
                 "type": "PROGRAMMING",
                 "points": 1750.0,
                 "tags": [
-                    "dp"
+                    "dp",
+                    "greedy"
                 ]
             },
             "author": {
@@ -583,7 +1632,8 @@
                 "type": "PROGRAMMING",
                 "points": 1750.0,
                 "tags": [
-                    "dp"
+                    "dp",
+                    "greedy"
                 ]
             },
             "author": {
@@ -657,7 +1707,8 @@
                 "type": "PROGRAMMING",
                 "points": 1750.0,
                 "tags": [
-                    "dp"
+                    "dp",
+                    "greedy"
                 ]
             },
             "author": {
@@ -692,7 +1743,8 @@
                 "type": "PROGRAMMING",
                 "points": 1750.0,
                 "tags": [
-                    "dp"
+                    "dp",
+                    "greedy"
                 ]
             },
             "author": {
